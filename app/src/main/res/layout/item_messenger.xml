@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profileimage"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="17dp"
+        android:src="@drawable/profile"/>
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:id="@+id/txtbirthdaygift"
+                android:paddingLeft="19dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Birthday gift"
+                android:textColor="#de000000"
+                android:textSize="16.7sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:id="@+id/txtsandraadams"
+                android:paddingLeft="19dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sandra Adams"
+                android:textColor="#de000000"
+                android:textSize="13.7sp"/>
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:id="@+id/txtweek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  — It’s the one week of the"
+                    android:textColor="#61000000"
+                    android:textSize="13.7sp"/>
+
+            </LinearLayout>
+
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:id="@+id/txtyear"
+                android:paddingLeft="19dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="year in which you get the chance to take…"
+                android:textColor="#61000000"
+                android:textSize="13.7sp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <View
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="17.3dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1f000000"/>
+
+
+
+
+
+
+
+
+</LinearLayout>

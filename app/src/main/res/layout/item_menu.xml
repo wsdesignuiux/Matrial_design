@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginLeft="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Print layout"
+            android:textColor="#de000000"
+            android:textSize="13.7sp" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_marginLeft="20dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Document outline"
+        android:textColor="#de000000"
+        android:textSize="13.7sp" />
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_marginLeft="20dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Find and replace"
+        android:textColor="#de000000"
+        android:textSize="13.7sp" />
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_marginLeft="20dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Explore"
+        android:textColor="#de000000"
+        android:textSize="13.7sp" />
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_marginLeft="20dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Spellcheck"
+        android:textColor="#de000000"
+        android:textSize="13.7sp" />
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_marginLeft="20dp"
+
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Page setup"
+        android:textColor="#de000000"
+        android:textSize="13.7sp" />
+
+    <LinearLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="24dp"
+        android:orientation="horizontal">
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginLeft="20dp"
+
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Word Count"
+            android:textColor="#de000000"
+            android:textSize="13.7sp" />
+
+        <ImageView
+            android:tint="#8C000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_right_arrow_button"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1f000000"/>
+
+    <LinearLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginLeft="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Share &amp; export"
+            android:textColor="#de000000"
+            android:textSize="13.7sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_right_arrow_button"
+            android:tint="#8C000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginLeft="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add-ons"
+            android:textColor="#de000000"
+            android:textSize="13.7sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_right_arrow_button"
+            android:tint="#8C000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginLeft="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Available offline"
+            android:textColor="#de000000"
+            android:textSize="13.7sp" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_marginLeft="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Star"
+            android:textColor="#de000000"
+            android:textSize="13.7sp" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="#cb0000">
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:src="@drawable/back"/>
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:id="@+id/text"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="48dp"/>
+
+
+    <ImageView
+        android:id="@+id/dot_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:layout_gravity="right"
+        android:src="@drawable/dot"/>
+
+    <ImageView
+        android:id="@+id/message_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="25dp"
+        android:layout_gravity="right"
+        android:src="@drawable/message"/>
+
+
+    <ImageView
+        android:id="@+id/delete_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="25dp"
+        android:layout_gravity="right"
+        android:src="@drawable/delete_box"/>
+
+    <ImageView
+        android:id="@+id/download_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="25dp"
+        android:layout_gravity="right"
+        android:src="@drawable/download"/>
+
+
+
+
+
+
+
+</android.support.v7.widget.Toolbar>

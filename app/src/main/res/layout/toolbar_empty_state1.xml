@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#cb0000">
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/menu_button"
+        android:tint="#ffffff"/>
+
+    <customfonts.MyTextView_Roboto_Medium
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store"
+        android:textSize="20sp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#ffffff"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="15dp"
+        android:tint="#ffffff"
+        android:src="@drawable/ic_search_black_24dp"/>
+
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Setting1">
+
+    <include layout="@layout/toolbar_setting1" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:paddingBottom="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <customfonts.MyTextView_Roboto_Medium
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Wireless &amp; networks"
+        android:textColor="#cb0000"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="20.7dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="29.2dp"
+                android:layout_height="24.5dp"
+                android:src="@drawable/ic_signal_wifi_4_bar_black_24dp"
+                android:tint="#cb0000" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29.5dp"
+                android:text="Wi-Fi"
+                android:textColor="#000000"
+                android:textSize="15.7sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1f000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="20.7dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="24.5dp"
+                android:src="@drawable/ic_icon_bluetooth" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35.5dp"
+                android:text="Bluetooth"
+                android:textColor="#000000"
+                android:textSize="15.7sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1f000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="20.7dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="23.2dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_icon_data_usage" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="31.5dp"
+                android:text="Data usage"
+                android:textColor="#000000"
+                android:textSize="15.7sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1f000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="20.7dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="5dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_icon_moredata" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35.5dp"
+                android:text="More"
+                android:textColor="#000000"
+                android:textSize="15.7sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1f000000" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="0.5dp"
+        android:background="#1f000000" />
+
+    <customfonts.MyTextView_Roboto_Medium
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16sp"
+        android:text="Device"
+        android:textColor="#a40001"
+        android:textSize="13.7sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="20.7dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="28.2dp"
+                android:layout_height="22.5dp"
+                android:src="@drawable/ic_icon_display" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="23dp"
+                android:text="Display"
+                android:textColor="#000000"
+                android:textSize="15.7sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1f000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="20.7dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="20.5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_icon_notifications" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="33.5dp"
+                android:text="Sound &amp; notification"
+                android:textColor="#000000"
+                android:textSize="15.7sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1f000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="20.7dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="20.2dp"
+                android:layout_height="21dp"
+                android:src="@drawable/ic_icon_language_system" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="31.5dp"
+                android:text="Apps"
+                android:textColor="#000000"
+                android:textSize="15.7sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1f000000" />
+
+
+    </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wolfsoft3.matrial_design">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Calls_History"></activity>
+        <activity android:name=".Call"></activity>
+        <activity android:name=".Mail"></activity>
+        <activity android:name=".Gmail"></activity>
+        <activity android:name=".Navigation_Drawer"></activity>
+        <activity android:name=".Route"></activity>
+        <activity android:name=".Collapsing_Contacts"></activity>
+        <activity android:name=".Contact"></activity>
+        <activity android:name=".Maps"></activity>
+        <activity android:name=".NewEvent"></activity>
+        <activity android:name=".Setting1"></activity>
+        <activity android:name=".Chat"></activity>
+        <activity android:name=".Messanger"></activity>
+        <activity android:name=".ProfileCpy"></activity>
+        <activity android:name=".SearchResult"></activity>
+        <activity android:name=".Settings2"></activity>
+        <activity android:name=".Albums1Activity"></activity>
+        <activity android:name=".DownloadsCopyActivity"></activity>
+        <activity android:name=".EmptyState1Activity"></activity>
+        <activity android:name=".MessageemptystatesActivity"></activity>
+        <activity android:name=".Photos1Activity"></activity>
+        <activity android:name=".SearchResult1Activity"></activity>
+        <activity android:name=".Walkthrough1Activity"></activity>
+        <activity android:name=".KwikListActivity"></activity>
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+
+</manifest>

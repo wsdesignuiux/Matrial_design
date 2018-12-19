@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Matrial_design</string>
+
+    <string name="bang_olufsen"><![CDATA[Bang & Olufsen]]></string>
+
+
+
+
+    <string name="suggestion"><font fgcolor="#000000">PRIMARY SAVING *4566</font>
+    <font fgcolor="#7970f9">$12,556.00</font></string>
+    <string name="hello_world">
+        <font fgcolor="#de000000">Stories matching"usa"</font>
+    </string>
+    <string name="hello_world1">
+        <font fgcolor="#de000000">  Five questions lawmakers should\nask Devos about teacher\neffectiveness.</font>
+        <font fgcolor="#d3d3d3">1 hour ago</font>
+    </string>
+
+
+    <string name="hello_world2">
+        <font fgcolor="#de000000">Tipping point: Can Summit put\npersonalized learning over the\ntop?</font>
+        <font fgcolor="#d3d3d3">1 hour ago</font>
+    </string>
+</resources>

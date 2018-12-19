@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:id="@+id/spinner_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WSDesign@gmail.com"
+        android:textColor="#de000000"
+        android:textSize="18.7dp" />
+
+
+</LinearLayout>

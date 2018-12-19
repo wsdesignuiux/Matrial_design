@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".MessageemptystatesActivity">
+
+    <include layout="@layout/toolbar_message_emptystates" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/circle_gry"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="60dp"
+                    android:layout_height="12dp"
+                    android:background="#d3d3d3" />
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="6.5dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#d3d3d3" />
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="6.5dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#d3d3d3" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/circle_gry" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="60dp"
+                    android:layout_height="12dp"
+                    android:background="#d9d9d9"/>
+
+                <View
+                    android:layout_width="120dp"
+                    android:layout_height="6.5dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#d9d9d9"/>
+
+                <View
+                    android:layout_width="25dp"
+                    android:layout_height="6.5dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#d9d9d9"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Once you start a new conversation,\nyou'll see it listed here."
+            android:textAlignment="center"
+            android:textColor="#9a9a9a"
+            android:textSize="14.5sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end|right"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:elevation="5dp"
+            android:src="@drawable/add"/>
+    </LinearLayout>
+</RelativeLayout>

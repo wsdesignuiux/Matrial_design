@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:layout_marginRight="3dp"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="220dp"
+        android:layout_margin="3dp"
+        android:elevation="2dp"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="2dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="75dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/headphone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="50dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <customfonts.MyTextView_Roboto_Regular
+                        android:id="@+id/txtbeoplay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.033"
+                        android:text="Beoplay A1"
+                        android:textColor="#de000000"
+                        android:textSize="15sp" />
+
+                    <customfonts.MyTextView_Roboto_Regular
+                        android:id="@+id/txtbang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bang_olufsen"
+                        android:textColor="#de000000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/imgmore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="34dp"
+                    android:layout_marginTop="6dp"
+                    android:src="@drawable/ic_show_more_button_with_three_dots" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RatingBar
+                    android:id="@+id/rtbHighScore"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="5dp"
+                    android:max="100"
+                    android:numStars="5"
+                    android:progressTint="#878787"
+                    android:rating="3"
+                    android:stepSize="0.0" />
+
+                <customfonts.MyTextView_Roboto_Medium
+                    android:id="@+id/txtprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="42dp"
+                    android:gravity="right"
+                    android:text="€250"
+                    android:textColor="#866d15"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

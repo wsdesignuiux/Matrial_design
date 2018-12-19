@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#f6f6f6"
+    tools:context="com.example.wolfsoft3.route_material_design.Route">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#cb0000">
+
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            android:orientation="horizontal">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:src="@drawable/back"/>
+
+        <ImageView
+            android:id="@+id/pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20.5dp"
+            android:paddingRight="6.5dp"
+            android:src="@drawable/ic_pin_icon"/>
+
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/search_rect"
+                android:backgroundTint="#d32c32">
+
+            <customfonts.EditText_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Your location"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:paddingLeft="10dp"
+                android:background="#00000000"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dot"
+                android:paddingRight="20dp"
+                android:paddingLeft="24.1dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="56.5dp"
+                android:src="@drawable/ic_place_icon"/>
+
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="48.1dp"
+                android:background="@drawable/search_rect"
+                android:backgroundTint="#d32c32">
+
+                <customfonts.EditText_Roboto_Regular
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="The Hermitage"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:paddingLeft="10dp"
+                    android:background="#00000000"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout_route"
+            style="@style/tabstyle"
+            app:tabBackground="@drawable/tab_rect"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:tabTextColor="#ffffff"
+            app:tabIndicatorHeight="0dp"
+            android:scrollbars="horizontal"
+            android:foregroundTint="@color/white"
+            android:layout_marginBottom="10dp"
+            app:tabSelectedTextColor="#cb0000"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ovel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="63dp"
+                android:paddingTop="50.7dp"
+                android:src="@drawable/ovel_rect"/>
+
+            <ImageView
+                android:id="@+id/ovel2"
+                android:layout_below="@+id/ovel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="63dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/ovel_rect"/>
+
+        </RelativeLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_route"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+        <!--<fragment-->
+            <!--android:id="@+id/googleMap"-->
+            <!--android:name="com.google.android.gms.maps.MapFragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:paddingTop="15dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="19dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#de000000"
+            android:text="4 min"/>
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19.7sp"
+            android:layout_marginLeft="8.3dp"
+            android:textColor="#de000000"
+            android:text="(220 m)"/>
+
+    </LinearLayout>
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13.7sp"
+        android:textColor="#8a000000"
+        android:layout_marginTop="9dp"
+        android:text="via The Hermitage"/>
+
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/send"
+        android:layout_above="@id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="10dp"
+        android:paddingRight="16dp"
+        android:src="@drawable/send"/>
+
+    <ImageView
+        android:layout_above="@id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="20dp"
+        android:paddingBottom="16dp"
+        android:src="@drawable/ic_location"/>
+
+
+    <customfonts.MyTextView_Roboto_Medium
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="START"
+        android:textSize="13.7sp"
+        android:textColor="#cb0000"
+        android:paddingBottom="29dp"
+        android:paddingRight="27.7dp"
+        android:src="@drawable/ic_location"/>
+
+
+</RelativeLayout>

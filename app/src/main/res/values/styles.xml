@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="MyMenuTextAppearance2" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:letterSpacing">0.0225</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="tabstyle"
+        parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">13.7sp</item>
+
+    </style>
+
+</resources>

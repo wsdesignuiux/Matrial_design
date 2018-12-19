@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".EmptyState1Activity">
+
+    <include layout="@layout/toolbar_empty_state1"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/abc"
+        app:tabTextAppearance="@style/MyCustomTextAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:elevation="0dp"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        android:backgroundTint="#cb0000"
+        app:tabIndicatorHeight="2dp"
+        app:tabTextColor="#b3ffffff"
+        app:tabSelectedTextColor="#ffffff"
+        app:tabIndicatorColor="#ffffff"/>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/xyz"/>
+</LinearLayout>

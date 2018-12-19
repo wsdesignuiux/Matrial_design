@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:padding="6dp"
+        android:orientation="horizontal"
+        android:background="#3d000000">
+
+        <ImageView
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_minus"/>
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_weight="1"
+            android:layout_marginLeft="24.9dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do not disturb is on (Alarms only)"
+            android:textColor="#ffffff"
+            android:textSize="15.7sp"/>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginRight="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_shape_17"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:background="#eeeeee"
+        android:paddingBottom="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_uparrow"/>
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_marginLeft="35.9dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suggestions"
+            android:textSize="13.7sp"
+            android:textColor="#cb0000"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_fingerprint"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_marginLeft="25.9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Use Nexus Imprint"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unlock with your fingerprint"
+                    android:textColor="#8a000000"
+                    android:textSize="13.7sp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:tint="#8C000000"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_more"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <customfonts.MyTextView_Roboto_Medium
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wireless &amp; networks"
+        android:textColor="#cb0000"
+        android:layout_margin="16dp"
+        android:textSize="14sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="20.7dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="29.2dp"
+                android:layout_height="24.5dp"
+                android:src="@drawable/ic_signal_wifi_4_bar_black_24dp"
+                android:tint="#cb0000" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29.5dp"
+                android:text="Wi-Fi"
+                android:textColor="#000000"
+                android:textSize="15.7sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1f000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="20.7dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="24.5dp"
+                android:src="@drawable/ic_bluetooth" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35.5dp"
+                android:text="Bluetooth"
+                android:textColor="#000000"
+                android:textSize="15.7sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1f000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="20.7dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="23.2dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_datausage" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="31.5dp"
+                android:text="Data usage"
+                android:textColor="#000000"
+                android:textSize="15.7sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1f000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="20.7dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:tint="#cb0000"
+                android:layout_width="35dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_more_horiz_black_24dp"/>
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.5dp"
+                android:text="More"
+                android:textColor="#000000"
+                android:textSize="15.7sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>

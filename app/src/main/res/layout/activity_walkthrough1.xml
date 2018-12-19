@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Great! You’re almost done."
+            android:textSize="24.5sp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:textColor="#de000000"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/men"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp">
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/circle_gry"
+                    android:tint="#000000"/>
+
+                <customfonts.MyTextView_Roboto_Bold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="#ffffff"
+                    android:textSize="14.5sp"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="0.0625dp"
+                android:textColor="#de000000"
+                android:text="To finish setting up WSDesign,\nvisit http://wsdesign.in"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp">
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/circle_gry"
+                    android:tint="#000000"/>
+
+                <customfonts.MyTextView_Roboto_Bold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textColor="#ffffff"
+                    android:textSize="14.5sp"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"
+                android:textColor="#de000000"
+                android:text="Install the WSDesign app for\n your computer"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red_rect1"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DONE"
+            android:layout_gravity="end"
+            android:textSize="13.5sp"
+            android:textColor="#ffffff"
+            android:layout_marginRight="15dp"
+            android:padding="15dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
